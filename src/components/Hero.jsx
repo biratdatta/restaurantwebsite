@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import image1 from './images/sofia1.jpeg';
 import image2 from './images/sofia2.jpeg';
-import image3 from './images/sofia2.jpeg';
+import image3 from './images/laptop.png';
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -11,13 +11,13 @@ const Hero = () => {
     'The Best',
     ' Chai',
     'Savor the Flavor',
-    // Add corresponding texts for each image
+    
   ];
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000); // Change image every 3 seconds
+    }, 3000);  
 
     return () => {
       clearInterval(interval);
@@ -42,7 +42,7 @@ const Hero = () => {
             )}
           </h1>
         </div>
-        {/* Carousel Image */}
+       
         <img
           className='w-full max-h-[500px] object-cover'
           src={images[currentIndex]}

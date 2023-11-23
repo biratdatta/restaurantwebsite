@@ -1,7 +1,7 @@
 import React from 'react';
-import chaiImage from './images/sofia1.jpeg'; // Replace with your image paths
-import chai2Image from './images/sofia2.jpeg'; // Replace with your image paths
-import pizzaImage from './images/sofia1.jpeg'; // Replace with your image paths
+import chaiImage from './images/chai.png'; // Replace with your image paths
+import chai2Image from './images/pizza.jpg'; // Replace with your image paths
+import pizzaImage from './images/fries.png'; // Replace with your image paths
 
 const HeadlineCards = () => {
   return (
@@ -25,8 +25,8 @@ const HeadlineCards = () => {
       <div className='rounded-xl relative'>
         {/* Overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-          <p className='font-bold text-2xl px-2 pt-4'>Sofia Special Chai 2</p>
-          <p className='px-2'>Rs 15/-</p>
+          <p className='font-bold text-2xl px-2 pt-4'>Sofia Special Pizza</p>
+          <p className='px-2'>Rs 115/-</p>
           <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
         </div>
         <img
@@ -40,7 +40,7 @@ const HeadlineCards = () => {
       <div className='rounded-xl relative'>
         {/* Overlay */}
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
-          <p className='font-bold text-2xl px-2 pt-4'>Sofia Special Pizza</p>
+          <p className='font-bold text-2xl px-2 pt-4'>Sofia Special Fries</p>
           <p className='px-2'>Rs 99/-</p>
           <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Order Now</button>
         </div>

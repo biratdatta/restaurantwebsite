@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar, { StickyNavbar } from './components/Navbar'
+import Navbar  from './components/Navbar'
 import Hero from './components/Hero'
 import HeadlineCards from './components/HeadlineCards'
 import Food from './components/Food'
 import Category from './components/Category'
 import HeroSection from './components/HeroSection'
 import AboutUs from './components/AboutUs'
-
+import ContactUs from './components/ContactUs'
+ 
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
         <HeadlineCards />
         <Food />
         <AboutUs />
+        <ContactUs />
         <Category />
         
     </div>
